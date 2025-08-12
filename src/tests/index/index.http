@@ -1,0 +1,8 @@
+@url = https://literate-waffle-5vg99j9qjxhrp9-8080.app.github.dev/
+GET {{url}}
+
+###
+POST {{url}}
+Content-Type: text/plain
+
+Abacate
