@@ -1,0 +1,28 @@
+@url = https://literate-waffle-5vg99j9qjxhrp9-8080.app.github.dev/alunos
+
+POST {{url}}
+Content-Type: application/json
+
+{
+    "id" : 30,
+    "nome" : "Maria",
+    "idade" : 18
+}
+
+###
+GET {{url}}
+
+###
+GET {{url}}/4
+
+###
+PUT {{url}}/4
+Content-Type: application/json
+
+{
+    "nome" : "Maria",
+    "idade" : 25
+}
+
+###
+DELETE {{url}}/2

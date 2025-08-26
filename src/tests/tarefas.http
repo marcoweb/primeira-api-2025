@@ -12,7 +12,7 @@ Content-Type: application/json
 GET {{url}}
 
 ###
-PUT {{url}}/4
+PUT {{url}}/2
 Content-Type: application/json
 
 {
@@ -20,4 +20,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE {{url}}/1
+DELETE {{url}}/2
+
+###
+GET {{url}}/10
